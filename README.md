@@ -25,11 +25,11 @@ This project integrates Razorpay Checkout into Salesforce using:
 
 🧩 Project Structure
 
-/force-app
-   /main
-     /classes
-         RazorpayOrderService.cls
-         RazorpayOrderService.cls-meta.xml
+    /force-app
+      /main
+        /classes
+            RazorpayOrderService.cls
+            RazorpayOrderService.cls-meta.xml
 
      /lwc
          razorpayPayment
