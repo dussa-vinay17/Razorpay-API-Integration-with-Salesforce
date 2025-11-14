@@ -13,6 +13,8 @@ This project integrates Razorpay Checkout into Salesforce using:
 
 🔄 Payment Flow
 
+    https://github.com/dussa-vinay17/Razorpay-API-Integration-with-Salesforce/blob/main/Flow%20Chart.png
+
 1. User clicks Pay in Salesforce  
 2. Apex sends POST /v1/orders to Razorpay  
 3. Razorpay returns Order ID  
