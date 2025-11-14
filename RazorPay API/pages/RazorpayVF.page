@@ -1,0 +1,65 @@
+<apex:page sidebar="false" showHeader="false" cache="false">
+
+    <html>
+        <head>
+            <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+        </head>
+
+        <body>
+
+            <script>
+                console.log("VF: Script loaded");
+
+                window.addEventListener("message", function(event) {
+
+                    console.log("VF: Message received", JSON.stringify(event.data));
+
+                    if (!event.data) {
+                        console.error("VF: No data in message");
+                        return;
+                    }
+
+                    if (event.data.command !== "startPayment") {
+                        console.warn("VF: Unknown command", event.data.command);
+                        return;
+                    }
+
+                    console.log("VF: Starting Razorpay payment");
+
+                    try {
+                        var options = {
+                            key: event.data.key,
+                            amount: event.data.amount,
+                            currency: event.data.currency,
+                            order_id: event.data.orderId,
+                            name: "Salesforce Razorpay Payment",
+                            redirect: true,  
+
+                            handler: function (response) {
+                                console.log("VF: Payment Success", JSON.stringify(response));
+
+                                window.parent.postMessage({
+                                    command: "paymentSuccess",
+                                    data: response
+                                }, "*");
+                            }
+                        };
+
+                        console.log("VF: Razorpay object =", typeof Razorpay);
+
+                        var rzp = new Razorpay(options);
+                        rzp.open();
+
+                        console.log("VF: Razorpay popup should open");
+
+                    } catch (e) {
+                        console.error("VF: Error opening Razorpay", e);
+                    }
+                });
+            </script>
+
+        </body>
+
+    </html>
+
+</apex:page>
