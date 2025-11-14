@@ -87,7 +87,8 @@ This project integrates Razorpay Checkout into Salesforce using:
     4. You can test with ₹1–₹10 after Live approval   
 
  📥 Clone This Repo
-     git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+ 
+     https://github.com/dussa-vinay17/Razorpay-API-Integration-with-Salesforce
 
  🤝 Contributions
      Feel free to fork, improve and submit PRs.
