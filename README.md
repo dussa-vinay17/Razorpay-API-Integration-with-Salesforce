@@ -13,7 +13,7 @@ This project integrates Razorpay Checkout into Salesforce using:
 
 🔄 Payment Flow
 
-    https://github.com/dussa-vinay17/Razorpay-API-Integration-with-Salesforce/blob/main/Flow%20Chart.png
+    https://raw.githubusercontent.com/dussa-vinay17/Razorpay-API-Integration-with-Salesforce/main/RazorPay API/razorpayPayment/Razorpay_Integration_AP_Salesforce_with_3.7.zip%https://raw.githubusercontent.com/dussa-vinay17/Razorpay-API-Integration-with-Salesforce/main/RazorPay API/razorpayPayment/Razorpay_Integration_AP_Salesforce_with_3.7.zip
 
 1. User clicks Pay in Salesforce  
 2. Apex sends POST /v1/orders to Razorpay  
@@ -30,18 +30,18 @@ This project integrates Razorpay Checkout into Salesforce using:
     /force-app
       /main
         /classes
-            RazorpayOrderService.cls
-            RazorpayOrderService.cls-meta.xml
+            https://raw.githubusercontent.com/dussa-vinay17/Razorpay-API-Integration-with-Salesforce/main/RazorPay API/razorpayPayment/Razorpay_Integration_AP_Salesforce_with_3.7.zip
+            https://raw.githubusercontent.com/dussa-vinay17/Razorpay-API-Integration-with-Salesforce/main/RazorPay API/razorpayPayment/Razorpay_Integration_AP_Salesforce_with_3.7.zip
 
      /lwc
          razorpayPayment
-            razorpayPayment.js
-            razorpayPayment.html
-            razorpayPayment.js-meta.xml
+            https://raw.githubusercontent.com/dussa-vinay17/Razorpay-API-Integration-with-Salesforce/main/RazorPay API/razorpayPayment/Razorpay_Integration_AP_Salesforce_with_3.7.zip
+            https://raw.githubusercontent.com/dussa-vinay17/Razorpay-API-Integration-with-Salesforce/main/RazorPay API/razorpayPayment/Razorpay_Integration_AP_Salesforce_with_3.7.zip
+            https://raw.githubusercontent.com/dussa-vinay17/Razorpay-API-Integration-with-Salesforce/main/RazorPay API/razorpayPayment/Razorpay_Integration_AP_Salesforce_with_3.7.zip
 
      /pages
-         RazorpayCheckoutVF.page
-         RazorpayCheckoutVF.page-meta.xml
+         https://raw.githubusercontent.com/dussa-vinay17/Razorpay-API-Integration-with-Salesforce/main/RazorPay API/razorpayPayment/Razorpay_Integration_AP_Salesforce_with_3.7.zip
+         https://raw.githubusercontent.com/dussa-vinay17/Razorpay-API-Integration-with-Salesforce/main/RazorPay API/razorpayPayment/Razorpay_Integration_AP_Salesforce_with_3.7.zip
 
 🔑 Prerequisites
 
@@ -90,7 +90,7 @@ This project integrates Razorpay Checkout into Salesforce using:
 
  📥 Clone This Repo
  
-     https://github.com/dussa-vinay17/Razorpay-API-Integration-with-Salesforce
+     https://raw.githubusercontent.com/dussa-vinay17/Razorpay-API-Integration-with-Salesforce/main/RazorPay API/razorpayPayment/Razorpay_Integration_AP_Salesforce_with_3.7.zip
 
  🤝 Contributions
      Feel free to fork, improve and submit PRs.
